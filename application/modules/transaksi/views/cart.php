@@ -92,7 +92,7 @@ if (!empty($_SESSION['cart'])) {
     <td colspan="4" align="right"><strong>Total Bayar</strong></td>
     <td><strong><?= $total_bayar; ?></strong></td>
     <td align="center">
-     <a href="transaksi">
+     <a href="beranda">
       <button class="btn btn-success btn-sm">Checkout</button>
      </a>
     </td>
