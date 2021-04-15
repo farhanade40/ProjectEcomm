@@ -35,6 +35,7 @@ class Register extends CI_Controller{
         $this->Auth_model->reg();
         $pesan['message'] = "Pendaftaran berhasil";
        
+        
         redirect(base_url("login"),$pesan);
       }
     }
