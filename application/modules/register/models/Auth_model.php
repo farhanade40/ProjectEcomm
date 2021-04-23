@@ -20,8 +20,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Auth_model extends CI_Model
 {
-    public $table       = 'admin';
-    public $id          = 'admin.id';
+    public $table       = 'users';
+    public $id          = 'users.id';
 
     public function __construct()
     {
